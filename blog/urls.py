@@ -5,4 +5,4 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     url(r'^team/$', views.team, name='team'),
-]   
+]
